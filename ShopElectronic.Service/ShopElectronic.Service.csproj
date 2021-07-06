@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopElectronic.Common\ShopElectronic.Common.csproj" />
+    <ProjectReference Include="..\ShopElectronic.Data\ShopElectronic.Data.csproj" />
+    <ProjectReference Include="..\ShopElectronic.Model\ShopElectronic.Model.csproj" />
+  </ItemGroup>
+
+</Project>
