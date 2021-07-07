@@ -7,9 +7,13 @@
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\ShopElectronic.Common\ShopElectronic.Common.csproj" />
+    <ProjectReference Include="..\ShopElectronic.Model\ShopElectronic.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>
